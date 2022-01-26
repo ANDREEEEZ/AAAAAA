@@ -1,4 +1,4 @@
-public class Inmobiliaria {
+public class Z {
 
     private Y [] algo;
     private int numeroalgos;

@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=BloqueDeVenta
-comment1.params=
-comment1.target=BloqueDeVenta()
-comment2.params=p
-comment2.target=void\ agregarApartamento(Apartamento)
-comment3.params=
-comment3.target=void\ imprimirPromedios()
-numComments=4

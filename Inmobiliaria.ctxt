@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Inmobiliaria
-comment1.params=
-comment1.target=Inmobiliaria()
-comment2.params=p\ nmes
-comment2.target=void\ registrarApartamento(Apartamento,\ int)
-comment3.params=
-comment3.target=void\ mostrarInformeInmobiliaria()
-numComments=4
