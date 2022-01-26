@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Servicio
+comment1.params=
+comment1.target=Servicio()
+comment2.params=m\ profundidad
+comment2.target=void\ agregarMuestra(Muestra,\ int)
+comment3.params=nSimple\ p
+comment3.target=void\ profundidaPromedio(int,\ Muestra)
+numComments=4
