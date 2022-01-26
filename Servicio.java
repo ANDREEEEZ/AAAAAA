@@ -28,7 +28,7 @@ public class Servicio{
     public void profundidaPromedio(int nSimple, Muestra p){
                profprom = (registro1 / nSimple);
                profprom1 = (registro2 / nEsp);
-                System.out.println("EKIS DE :" + profprom);
+                System.out.println("DE :" + profprom);
                 System.out.println("EKIS DE 1:" + profprom1);
         }
     }
