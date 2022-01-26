@@ -1,19 +1,20 @@
 public class Muestra{
     private String serial;
     private String fecha;
-    private int profundidad;
+    private int profundida;
+    private String pro;
     
     public Muestra(String serial,String fecha,int prof){
      this.serial=serial;
      this.fecha=fecha;
-     this.profundidad = profundidad;
+     this.profundida = profundida;
     }
     
     public int getProfundidad(){
-         return profundidad;   
+         return profundida;   
     }
     
     public int getProf(){
-         return profundidad;   
+         return profundida;   
     }
 }
