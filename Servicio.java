@@ -29,7 +29,7 @@ public class Servicio{
                profprom = (registro1 / nSimple);
                profprom1 = (registro2 / nEsp);
                 System.out.println("HOLAAA SANTIIII :" + profprom);
-                System.out.println("EKIS DE 1:" + profprom1);
+                System.out.println("HOLA ANDREZZZZ:" + profprom1);
         }
     }
 
