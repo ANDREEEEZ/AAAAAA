@@ -11,7 +11,6 @@ public class Lab{
 
         muestras= new Muestra[99];
         nMuestras=-1;
-
          
     }
 
