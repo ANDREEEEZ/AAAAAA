@@ -9,10 +9,6 @@ public class Muestra{
      this.profundidad = profundidad;
     }
     
-    public int getProfundidad(){
-         return profundidad;   
-    }
-    
     public int getProf(){
          return profundidad;   
     }
