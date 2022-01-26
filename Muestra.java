@@ -2,7 +2,6 @@ public class Muestra{
     private String serial;
     private String fecha;
     private int profundidad;
-    private int prONTO;
     
     public Muestra(String serial,String fecha,int prof){
      this.serial=serial;
