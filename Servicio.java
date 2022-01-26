@@ -8,6 +8,7 @@ public class Servicio{
     private Muestra p;
     private double profprom;
     private double profprom1;
+    
     public Servicio(){
         simple= new Muestra[30];
         esp= new Muestra[30];
