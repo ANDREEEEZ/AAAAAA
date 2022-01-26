@@ -3,9 +3,6 @@ public class Lab{
     private int nServicios;
     private Muestra[] muestras;
     private int nMuestras;
-    private int orden;
-    private int check;
-    private int suma=0;
 
     public Lab(){
         servicios= new Servicio[100];
@@ -25,7 +22,6 @@ public class Lab{
     }
     public void registrarMuestra(Muestra b, int orden){
         muestras[orden]=b;
-        check+=b.getProf();
     }
     public void mostrarInforme(){
         System.out.println("Se hizo lo que se pudo");
