@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Muestra
-comment1.params=serial\ fecha\ profundidad
-comment1.target=Muestra(java.lang.String,\ java.lang.String,\ int)
-comment2.params=
-comment2.target=int\ getProf()
-numComments=3
