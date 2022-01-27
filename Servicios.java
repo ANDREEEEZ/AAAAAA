@@ -51,11 +51,11 @@ public class Servicios {
         return costo;
     }
     
-    public double getEspecializadas(){
+    public int getEspecializadas(){
         return nEspecializadas;
     }
     
-    public double getSimples(){
+    public int getSimples(){
         return nSimples;
     }
 }

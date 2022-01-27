@@ -5,28 +5,31 @@ public class Laboratorio {
 
     public Laboratorio (){
         servi = new Servicios [100];
-        for (int i = 0 ; i< 100; i++){
-            Servicios servc = new Servicios();
-            this.servi [i]=servc;
-            this.numeroservi = i;
-        }
+        numeroservi = 0;
     }
 
-    public void agregarServicio (int v,Muestra p){
-        Servicios a = servi [v];
-        a.agregarMuestra(p);
+    public void agregarServicio (Servicios s){
+        servi[numeroservi] = s;
+        numeroservi++;
     }
 
-    public void registrarMuestra (int nserv, Muestra p){
-        servi [nserv-1].agregarMuestra(p);
+    public void registrarMuestra (int v, Muestra p){
+        servi[v-1].agregarMuestra(p);
     }
 
     public void mostrarInformes(){
-        for (int i = 0; i <= numeroservi; i++){
-            System.out.println("PROMEDIO ESPECIALIZADAS: "+ servi [i].getPromedioEspecializadas());
-            System.out.println("PROMEDIO NO ESPECIAL : "+ servi [i].getPromedioSimples());
-            System.out.println("BLOQUE DE VENtA DEL MES : "+ servi [i]);
+        for (int i = 0; i < numeroservi; i++){
+            Servicios s = servi[i];
+            System.out.println("Servicio #" + i);
+            System.out.println("Profundidad promedio "+ s.getEspecializadas() + " muestras especializadas:" + 
+                                    s.getPromedioEspecializadas());
+                                
+            System.out.println("Profundidad promedio "+ s.getSimples() + " muestras simples: " + 
+                                    s.getPromedioSimples());
+                                    
+            System.out.println("Costo Total: "+ s.getCosto());
+            System.out.println();
         }
-
+        
     }
 }
