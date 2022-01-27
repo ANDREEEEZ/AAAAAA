@@ -1,16 +1,12 @@
 public class Laboratorio {
 
-    private Servicio [] ser;
-    private int numeroalgos;
+    private Servicios [] servi;
+    private int numeroservi;
 
-    public Z (){
-        algo = new Y [h];
-        for (int i = 0 ; i< 25; i++){
+    public Laboratorio (){
             Y algunacosa = new Y();
             this.algo [i]=mes;
             this.numeroalgos = i;
-
-        }
     }
     public void agregar (int v,X p){
     Y a = algo [v];
