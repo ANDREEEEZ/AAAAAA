@@ -1,47 +1,22 @@
 public class Servicios {
 
     private Muestra[] especializadas, simples;
-    private int cantidad1;
-    private int cantidad2;
-    private double acumulacion1;
-    private double acumulacion2;
-
-    public Y (){
-
-        = new [];
-        = new [];
-
+    private int nEspecializadas, nSimples;
+    
+    public Servicios(){
+        especializadas = new Muestra[30];
+        simples = new Muestra[30];
+        nEspecializadas = 0; nSimples = 0;
     }
 
-    public void agregar (X p){
-
-        if (p.getValor()<= 20){
-            primero [cantidad1] = p;
-            cantidad1++;
-            acumulacion1+=p.getValor();    
+    public void agregarMuestra(Muestra muestra){
+        int prof = muestra.getProf();
+        if (prof <= 10){
+            simples[nSimples] = muestra;
+            nSimples++;
         }else{
-            segundo [cantidad2] =p;
-            cantidad2++;
-            acumulacion2+=p.getValor();
+            especializadas[nEspecializadas] = muestra;
+            nEspecializadas++;
         }
-
     }
-    private void imprimir (){
-    double = ;
-    double promedio = (acumulacion/cantidad1);
-    double promedio1 = (acumulacion/cantidad2);
-    System.out.println("--------------------");
-    System.out.println("");
-    System.out.println("--------------------");
-    System.out.println("");
-    System.out.println("---------------------");
-    System.out.println("");
-    System.out.println("---------------------");
-    }
-
-
-
-
-
-
 }
