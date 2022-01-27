@@ -1,6 +1,6 @@
-public class Z {
+public class Laboratorio {
 
-    private Y [] algo;
+    private Servicio [] ser;
     private int numeroalgos;
 
     public Z (){
