@@ -1,7 +1,6 @@
-public class Y {
+public class Servicios {
 
-    private X primer [] ;
-    private X segun [] ;
+    private Muestra[] especializadas, simples;
     private int cantidad1;
     private int cantidad2;
     private double acumulacion1;
