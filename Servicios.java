@@ -50,4 +50,12 @@ public class Servicios {
         costo += 400_000*nSimples;
         return costo;
     }
+    
+    public double getEspecializadas(){
+        return nEspecializadas;
+    }
+    
+    public double getSimples(){
+        return nSimples;
+    }
 }
