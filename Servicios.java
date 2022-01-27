@@ -2,7 +2,7 @@ public class Servicios {
 
     private Muestra[] especializadas, simples;
     private int nEspecializadas, nSimples;
-    
+
     public Servicios(){
         especializadas = new Muestra[30];
         simples = new Muestra[30];
@@ -18,5 +18,10 @@ public class Servicios {
             especializadas[nEspecializadas] = muestra;
             nEspecializadas++;
         }
+    }
+
+    public double getPromedioEspecializadas(){
+        double x = 0;
+        return x;
     }
 }
