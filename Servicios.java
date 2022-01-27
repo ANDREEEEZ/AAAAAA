@@ -21,7 +21,33 @@ public class Servicios {
     }
 
     public double getPromedioEspecializadas(){
-        double x = 0;
-        return x;
+        if(nEspecializadas == 0){return 0;}
+        double promedio = 0;
+        double prof = 0;
+        for(int i = 0; i < nEspecializadas; i++){
+            prof = especializadas[i].getProf();
+            promedio += prof;
+        }
+        promedio /= nEspecializadas;
+        return promedio;
+    }
+    
+    public double getPromedioSimples(){
+        if(nSimples == 0){return 0;}
+        double promedio = 0;
+        double prof = 0;
+        for(int i = 0; i < nSimples; i++){
+            prof = simples[i].getProf();
+            promedio += prof;
+        }
+        promedio /= nSimples;
+        return promedio;
+    }
+    
+    public double getCosto(){
+        double costo = 0;
+        costo += 1_000_000*nEspecializadas;
+        costo += 400_000*nSimples;
+        return costo;
     }
 }
